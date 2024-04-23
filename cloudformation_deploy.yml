@@ -1,4 +1,4 @@
-tmeplate-file-path: ./cloudformation.yml
+template-file-path: ./cloudformation.yml
 
 parameters:
   KeyName: GolfStatsApi
