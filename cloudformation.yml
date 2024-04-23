@@ -82,8 +82,8 @@ Resources:
       DBInstanceClass: 'db.t2.micro'  # Adjust as needed
       Engine: 'postgres'
       EngineVersion: '11.9'  # Adjust as needed
-      DBName: 'your-database-name'
-      MasterUsername: 'your-master-username'
+      DBName: 'golfstatsapi_postgres'
+      MasterUsername: 'postgres'
       MasterUserPassword: !Ref DBMasterUserPassword
       DBSubnetGroupName: !Ref DBSubnetGroup
       VPCSecurityGroups:
