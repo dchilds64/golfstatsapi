@@ -28,7 +28,7 @@ Resources:
     Properties:
       VpcId: !Ref GolfStatsApiVPC
       CidrBlock: '10.0.1.0/24'  # Replace with your desired CIDR block
-      AvailabilityZone: !Select [ 0, !GetAZs !Ref 'AWS::Region' ]
+      AvailabilityZone: !Select [ 0, !GetAZs 'us-west-2' ]
 
   GolfStatsApiEC2Instance:
     Type: 'AWS::EC2::Instance'
