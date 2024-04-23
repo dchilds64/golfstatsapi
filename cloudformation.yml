@@ -48,6 +48,7 @@ Resources:
     Type: 'AWS::EC2::SecurityGroup'
     Properties:
       GroupDescription: 'Security group for EC2 instance'
+      VpcId: !Ref GolfStatsApiVPC
       SecurityGroupIngress:
         - IpProtocol: tcp
           FromPort: 22
