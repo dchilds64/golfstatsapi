@@ -6,7 +6,7 @@ phases:
       java: corretto17
     commands:
       - echo "Installing dependencies..."
-      - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+      - mvn install -DskipTests=true -B -V
 
   pre_build:
     commands:
